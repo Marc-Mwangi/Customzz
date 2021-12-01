@@ -1,0 +1,25 @@
+.navi {
+    width: 100%;
+    position: relative;
+    background-color: #AF1B3F;
+    color: white;
+}
+.navi ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.navi ul li{
+    padding-left: 7%;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+.navi ul img {
+    height: 55px;
+    width: 50px;
+    padding-top: 1%;
+}
+.navi ul h3 {
+    padding-top: 1%;
+}
