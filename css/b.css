@@ -76,3 +76,14 @@ body{
 
     
 }
+.price{
+    text-align: center;
+}
+.price button{
+    border-radius: 1.25rem;
+    color: magenta;
+}
+.cost{
+    font-size: 30px;
+    color: magenta;
+}
