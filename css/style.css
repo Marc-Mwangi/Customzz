@@ -203,7 +203,7 @@
 }
 #foot {
     position: relative;
-    top: 400px;
+    top: 440px;
 }
 .flag {
     width: 100%;
@@ -222,6 +222,9 @@
     }
     .flag h3{
         font-size: 80px;
+    }
+    #foot{
+        top: 500px;
     }
     
 }
