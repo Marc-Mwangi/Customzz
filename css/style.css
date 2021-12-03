@@ -191,15 +191,19 @@
     height: 70vh;
     opacity: 0.4;
     overflow: hidden;
+    margin: 0;
+    left: 0;
 }
 .banner video{
     width: 100%;
     position: absolute;
     z-index: -4;
+
 }
 #box{
     position: relative;
     top: 450px;
+    height: 500px;
 }
 #foot {
     position: relative;
