@@ -1,3 +1,6 @@
+body{
+    background-color: #efc69b;
+}
 .navi {
     width: 100%;
     position: relative;
@@ -10,10 +13,11 @@
     justify-content: space-between;
 }
 .navi ul li{
-    padding-left: 7%;
+    padding-left: 4%;
     padding-top: 1%;
     padding-right: 3%;
     padding-bottom: 2%;
+    text-align: center;
 }
 .navi ul img {
     height: 55px;
@@ -22,4 +26,53 @@
 }
 .navi ul h3 {
     padding-top: 1%;
+}
+.design{
+    position: absolute;
+    left: -3%;
+    width: 110%;
+    height: 500px;
+    border: black solid 1px;
+    overflow: hidden;
+    background-color: black;
+    -webkit-mask-image:url(../media/shirt-removebg-preview.png);
+    mask-image : url(../media/shirt-removebg-preview.png);
+    mask-position: center;
+    mask-repeat: repeat;
+    mask-size: contain;
+}
+.shirt{
+    padding: 3%;
+}
+.shirt input{
+    padding: 20px;
+}
+.input{
+    display: none;
+    width: 96%;
+}
+.instruction{
+    width: 60%;
+    padding: 5%;
+}
+.con {
+    background-color:lightgray;
+    height: 500px;
+    border-radius: 1.25rem;
+    width: 78%;
+    position: relative;
+    left: 8%;
+    overflow: hidden;
+   
+}
+@media (min-width:720px) {
+    .con{
+        width: 38%;
+        left: 30%;
+    }
+    .navi ul li{
+        padding-left: 1%;
+    }
+
+    
 }
