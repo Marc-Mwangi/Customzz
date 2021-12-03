@@ -216,6 +216,16 @@
 .flag h3 {
     font-size: 90px;
 }
+@media (max-width:720px) {
+    .flag{
+        top: 12%;
+    }
+    .flag h3{
+        font-size: 80px;
+    }
+    
+}
+
 .navi {
     width: 100%;
     position: relative;
