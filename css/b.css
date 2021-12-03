@@ -87,3 +87,52 @@ body{
     font-size: 30px;
     color: magenta;
 }
+footer{
+    width:100%;
+    background-color:#121619;
+    color:#fff;
+    }
+.top_header{
+    padding:2rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    }
+    .top_header section{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+        }
+        
+        .top_header span{
+        padding:0 1rem;
+        }
+        
+        .top_header .fa{
+        color:#ffbe00;
+        font-size:35px;
+        }
+        
+        footer .border-shape {
+        width: 40%;
+        }
+        
+        footer .border-shape::before {
+        width: 100%;
+        left:120px;
+        }
+        
+        footer .border-shape::after {
+        width: 100%;
+        right:120px;
+        }
+        
+        footer .bottom_content section{
+        padding:1.5rem 2rem;
+        display:flex;
+        align-items:center;
+        justify-content:Center;
+        }
+                
